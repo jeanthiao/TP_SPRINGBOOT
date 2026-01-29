@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/gestion_commande}
+    username: ${DB_USERNAME:jcet_commande}
+    password: ${DB_PASSWORD:commande1}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update   # modifie automatiquement la base si besoin
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: ${SERVER_PORT:8080}  # port par défaut 8080

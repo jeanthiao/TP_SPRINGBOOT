@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: tp1
+
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/gestion_commande
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true

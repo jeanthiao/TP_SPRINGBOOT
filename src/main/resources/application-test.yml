@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/gestion_commande_test}
+    username: ${DB_USERNAME:jcet_commande}
+    password: ${DB_PASSWORD:commande1}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop  # recrée la base à chaque démarrage
+    show-sql: false
+
+server:
+  port: ${SERVER_PORT:0}  # port aléatoire pour ne pas bloquer dev
