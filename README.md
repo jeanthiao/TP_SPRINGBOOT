@@ -18,7 +18,7 @@ Lancement de l’application
 ---
  2️⃣ Clonage du dépôt
 ```bash
-git clone https://github.com/jeanthiao/tp1.git
+git clone https://github.com/jeanthiao/TP_SPRINGBOOT.git
 cd TP1
 
 
