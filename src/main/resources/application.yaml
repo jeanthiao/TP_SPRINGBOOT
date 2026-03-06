@@ -10,3 +10,7 @@ spring:
     hibernate:
       ddl-auto: create
     show-sql: true
+
+    jwt:
+      secret: "ma-cle-secrete-super-longue-pour-jwt-256bits!!"
+      expiration: 86400000  # 24 heures en ms
